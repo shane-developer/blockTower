@@ -1,74 +1,84 @@
 <!doctype html>
-<html lang="zh-Hant">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Block Tower 隱私政策：了解遊戲如何處理資料與購買。">
+    <meta name="description" content="Read how Block Tower handles game data, support requests, and purchases.">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:locale:alternate" content="zh_TW">
+    <link rel="canonical" href="https://blocktower-lac.vercel.app/privacy.html">
+    <link rel="alternate" hreflang="en" href="https://blocktower-lac.vercel.app/privacy.html">
+    <link rel="alternate" hreflang="zh-Hant" href="https://blocktower-lac.vercel.app/privacy.zh-Hant.html">
+    <link rel="alternate" hreflang="x-default" href="https://blocktower-lac.vercel.app/privacy.html">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-dark-32.png" media="(prefers-color-scheme: dark)">
     <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
     <link rel="manifest" href="site.webmanifest">
-    <title>隱私政策｜Block Tower</title>
+    <title>Privacy Policy | Block Tower</title>
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <div class="shell">
       <header class="site-header">
         <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"></span>Block Tower</a>
-        <nav class="site-nav" aria-label="主要導覽">
-          <a href="index.html">產品</a>
-          <a href="privacy.html" aria-current="page">隱私政策</a>
-          <a href="support.html">支援中心</a>
+        <nav class="site-nav" aria-label="Primary navigation">
+          <a href="index.html">Home</a>
+          <a href="privacy.html" aria-current="page">Privacy</a>
+          <a href="support.html">Support</a>
+          <div class="language-switch" role="group" aria-label="Language">
+            <a href="privacy.html" lang="en" aria-current="page">EN</a>
+            <a href="privacy.zh-Hant.html" lang="zh-Hant">繁中</a>
+          </div>
         </nav>
       </header>
 
       <main>
         <section class="hero" aria-labelledby="page-title">
           <p class="eyebrow">Privacy</p>
-          <h1 id="page-title">你的塔樓，資料留在你的裝置。</h1>
-          <p class="lede">這份隱私政策說明 Block Tower 目前如何處理資料。政策適用於 Block Tower iOS App、Android App 與本網站。</p>
+          <h1 id="page-title">Your tower stays on your device.</h1>
+          <p class="lede">This policy explains how Block Tower handles data. It applies to the iOS app, Android app, and this website.</p>
         </section>
 
         <article class="content">
-          <p><strong>生效日期：2026 年 8 月 11 日</strong></p>
-          <p>Block Tower 目前不要求建立帳號，也不使用廣告、分析或跨 App 追蹤服務。我們只在提供遊戲功能所需的範圍內處理資料。</p>
+          <p><strong>Effective date: August 11, 2026</strong></p>
+          <p>Block Tower does not require an account and does not use advertising, analytics, or cross-app tracking services. We handle data only as needed to provide game features.</p>
 
-          <h2>我們會處理哪些資料？</h2>
+          <h2>Data we handle</h2>
           <div class="card-grid">
             <section class="card">
-              <h3>裝置上的遊戲資料</h3>
-              <p>最高分、遊戲進度、Bolt、設定與已解鎖的外觀會儲存在你的裝置本機。這些資料不會由 Block Tower 伺服器收集。</p>
+              <h3>Game data on your device</h3>
+              <p>High scores, game progress, Bolt, settings, and unlocked themes are stored locally on your device. Block Tower does not collect this data on a server.</p>
             </section>
             <section class="card">
-              <h3>你主動提供的訊息</h3>
-              <p>支援表單由 Google Forms 託管。你提交的答案會提供給 Block Tower，僅用於了解及處理支援請求；如你在表單中提供聯絡資訊，我們會用它回覆你的請求。</p>
+              <h3>Information you send us</h3>
+              <p>Our support form is hosted by Google Forms. Your submitted answers are shared with Block Tower so we can understand and handle your request. If you include contact details, we use them to reply.</p>
             </section>
           </div>
 
-          <h2>App 內購買</h2>
-          <p>iOS 版 Bolt 等 App 內購買由 Apple App Store 與 StoreKit 處理。付款資料由 Apple 直接管理，Block Tower 不會取得你的完整付款資訊。購買紀錄可能由 Apple 用於驗證交易與提供購買功能。Android 版沒有 App 內購買。</p>
+          <h2>In-app purchases</h2>
+          <p>On iOS, Bolt and other in-app purchases are handled by the Apple App Store and StoreKit. Apple manages payment details directly; Block Tower does not receive your full payment information. Apple may use purchase records to verify transactions and provide purchase features. The Android version has no in-app purchases.</p>
 
-          <h2>系統 API 與必要原因</h2>
-          <p>iOS App 使用 Apple 的 UserDefaults，Android App 使用 libGDX 的本機偏好設定儲存進度與設定。iOS 遊戲使用系統 uptime 處理計時與復活保護；Android 使用單調時鐘控制觸覺回饋間隔。這些功能會在裝置上處理資料，不會因此把資料傳送給我們。</p>
+          <h2>System APIs</h2>
+          <p>The iOS app uses Apple UserDefaults, and the Android app uses libGDX local preferences, to store progress and settings. The iOS game uses system uptime for timers and revive protection; Android uses a monotonic clock to manage haptic feedback intervals. These functions process data on your device and do not send it to us.</p>
 
-          <h2>資料保留與刪除</h2>
-          <p>本機資料會保留到你在 App 設定中清除所有進度、刪除 App，或以其他方式清除裝置資料為止。Block Tower 會將支援表單提交的答案保留於處理問題所需期間，之後依合理的營運與法律需要刪除。</p>
+          <h2>Data retention and deletion</h2>
+          <p>Local data remains on your device until you clear progress in the app settings, delete the app, or otherwise clear the device data. Block Tower keeps support form responses only as long as needed to handle the request, then deletes them as reasonably required by operational and legal needs.</p>
 
-          <h2>兒童與第三方服務</h2>
-          <p>Block Tower 不以個人化廣告或追蹤為目的收集兒童資料。Google Forms 託管支援表單；Google 對相關資料的處理方式請參閱 <a href="https://policies.google.com/privacy" rel="noreferrer">Google 隱私權政策</a>。除 Apple 為提供 App Store 與內購功能所提供的服務外，我們目前沒有整合其他會收集個人資料的第三方 SDK。</p>
+          <h2>Children and third-party services</h2>
+          <p>Block Tower does not collect children's data for personalized advertising or tracking. Google Forms hosts the support form; see the <a href="https://policies.google.com/privacy" rel="noreferrer">Google Privacy Policy</a> for how Google handles related data. Apart from Apple services needed for the iOS App Store and in-app purchases, we currently do not integrate other third-party SDKs that collect personal data.</p>
 
-          <h2>政策變更</h2>
-          <p>如果資料處理方式有重大變更，我們會更新本頁的生效日期與內容。建議偶爾回來查看最新版本。</p>
+          <h2>Policy changes</h2>
+          <p>If our data practices change significantly, we will update this page and its effective date. Please check back for the latest version.</p>
 
-          <h2>聯絡我們</h2>
-          <p>如對隱私有疑問，請透過支援表單聯絡我們：</p>
-          <a class="contact" href="https://forms.gle/gVLRwAY1yRQqvcTY8">填寫支援表單</a>
+          <h2>Contact</h2>
+          <p>If you have a privacy question, contact us through the support form:</p>
+          <a class="contact" href="https://forms.gle/gVLRwAY1yRQqvcTY8">Open the support form</a>
         </article>
       </main>
 
       <footer>
-        <p>© 2026 Block Tower。<a href="support.html">需要協助？前往支援中心</a></p>
+        <p>© 2026 Block Tower · <a href="support.html">Need help? Visit support</a></p>
       </footer>
     </div>
   </body>
